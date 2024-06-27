@@ -72,16 +72,16 @@
             <section class="home section" id="home">
                 <div class="home__container container grid">
                     <div class="home_content grid">
-                        <div class="home_social">
-                            <a href="#" target="_blank" class="home_social-icon">
+                        <div class="home__social">
+                            <a href="#" target="_blank" class="home__social-icon">
                                 <i class="uil uil-github-alt"></i>
                             </a>
 
-                            <a href="#" target="_blank" class="home_social-icon">
+                            <a href="#" target="_blank" class="home__social-icon">
                                 <i class="uil uil-twitter"></i>
                             </a>
 
-                            <a href="#" target="_blank" class="home_social-icon">
+                            <a href="#" target="_blank" class="home__social-icon">
                                 <i class="uil uil-linkedin"></i>
                             </a>
                         </div>
@@ -122,6 +122,7 @@
                         <a href="#about" class="home__scroll-button button--flex">
                             <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
                             <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
                         </a>
                     </div>
                 </div>
