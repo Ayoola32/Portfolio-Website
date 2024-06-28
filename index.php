@@ -191,7 +191,7 @@
 
                             <div class="skills__list grid">
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">HTML</h3>
                                         <span class="skills__number">90%</span>
                                     </div>
@@ -200,7 +200,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">CSS</h3>
                                         <span class="skills__number">50%</span>
                                     </div>
@@ -209,7 +209,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">JavaScript</h3>
                                         <span class="skills__number">50%</span>
                                     </div>
@@ -218,7 +218,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">Wordpress</h3>
                                         <span class="skills__number">40%</span>
                                     </div>
@@ -227,7 +227,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">React</h3>
                                         <span class="skills__number">10%</span>
                                     </div>
@@ -251,7 +251,7 @@
 
                             <div class="skills__list grid">
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">PHP Fundamenal</h3>
                                         <span class="skills__number">90%</span>
                                     </div>
@@ -260,7 +260,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">PHP OOP</h3>
                                         <span class="skills__number">40%</span>
                                     </div>
@@ -269,7 +269,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">Laravel</h3>
                                         <span class="skills__number">0%</span>
                                     </div>
@@ -278,7 +278,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">MYSQL</h3>
                                         <span class="skills__number">40%</span>
                                     </div>
@@ -287,7 +287,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">NodeJs</h3>
                                         <span class="skills__number">0%</span>
                                     </div>
@@ -300,8 +300,8 @@
                     </div>
 
                     <div>
-                            <!--==================== SKILLS 3====================-->
-                            <div class="skills__content">
+                        <!--==================== SKILLS 3====================-->
+                        <div class="skills__content">
                             <div class="skills__header">
                                 <i class="uil uil-swatchbook skills__icon"></i>
                                 <div>
@@ -313,7 +313,7 @@
 
                             <div class="skills__list grid">
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">Bootstrap</h3>
                                         <span class="skills__number">60%</span>
                                     </div>
@@ -322,7 +322,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">CorelDraw</h3>
                                         <span class="skills__number">70%</span>
                                     </div>
@@ -331,7 +331,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">Photoshop</h3>
                                         <span class="skills__number">40%</span>
                                     </div>
@@ -340,7 +340,7 @@
                                     </div>
                                 </div>
                                 <div class="skills__data">
-                                    <div class="skills__title">
+                                    <div class="skills__titles">
                                         <h3 class="skills__name">Figma</h3>
                                         <span class="skills__number">10%</span>
                                     </div>
