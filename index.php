@@ -270,20 +270,20 @@
                                 </div>
                                 <div class="skills__data">
                                     <div class="skills__titles">
-                                        <h3 class="skills__name">Laravel</h3>
-                                        <span class="skills__number">0%</span>
-                                    </div>
-                                    <div class="skills__bar">
-                                        <span class="skills__percentage skills__laravel"></span>
-                                    </div>
-                                </div>
-                                <div class="skills__data">
-                                    <div class="skills__titles">
                                         <h3 class="skills__name">MYSQL</h3>
                                         <span class="skills__number">40%</span>
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__mysql"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Laravel</h3>
+                                        <span class="skills__number">0%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__laravel"></span>
                                     </div>
                                 </div>
                                 <div class="skills__data">
@@ -318,7 +318,7 @@
                                         <span class="skills__number">60%</span>
                                     </div>
                                     <div class="skills__bar">
-                                        <span class="skills__percentage skills__bootstap"></span>
+                                        <span class="skills__percentage skills__bootstrap"></span>
                                     </div>
                                 </div>
                                 <div class="skills__data">
