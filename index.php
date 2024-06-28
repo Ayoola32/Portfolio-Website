@@ -148,19 +148,15 @@
                                 <span class="about__info-title">1+</span>
                                 <span class="about__info-name">Years <br> Experience</span>
                             </div>
-                        </div>
 
-                        <div class="about__info">
                             <div>
                                 <span class="about__info-title">10+</span>
                                 <span class="about__info-name">Completed <br> Project</span>
                             </div>
-                        </div>
 
-                        <div class="about__info">
                             <div>
                                 <span class="about__info-title">2</span>
-                                <span class="about__info-name">Teams <br> Worked</span>
+                                <span class="about__info-name">Teams <br> Worked With</span>
                             </div>
                         </div>
 
