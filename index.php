@@ -130,7 +130,47 @@
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">My Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/portfolio3.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">
+                            I'm a creative and analytical software engineer with a strong sense of teamwork. 
+                            I also enjoy producing content to share my knowledge with other engineers and stakeholders.
+                            My extensive experience over the years, which is still growing, has produced several valuable software products.
+                        </p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">1+</span>
+                                <span class="about__info-name">Years <br> Experience</span>
+                            </div>
+                        </div>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">10+</span>
+                                <span class="about__info-name">Completed <br> Project</span>
+                            </div>
+                        </div>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">2</span>
+                                <span class="about__info-name">Teams <br> Worked</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/" class="button button--flex">
+                                My Resumé <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== SKILLS ====================-->
