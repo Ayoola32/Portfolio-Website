@@ -99,7 +99,7 @@
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                    <image class="home__blob-img" xlink:href="assets/img/portfolio2.jpg"/>
+                                    <image class="home__blob-img" X="12" Y="18" xlink:href="assets/img/portfolio2.jpg"/>
                                 </g>
                             </svg>
                         </div>
@@ -108,7 +108,7 @@
                             <h1 class="home__title">Hi, I'm Abubakar Sidiq</h1>
                             <h3 class="home__subtitle">Backend Developer</h3>
                             <p class="home__description">
-                                High Level Experience in Web development and Knowledge, Producing quality work
+                                High Level Experience in Web development and Knowledge, Producing quality work.
                             </p>
                             <a href="#contact" class="button button__flex">
                                Contact Me <i class="uil uil-message button__icon"></i>
