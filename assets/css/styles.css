@@ -392,7 +392,7 @@ display: flex;
 justify-content: center;
 }
 /*==================== SKILLS ====================*/
-.skills__conainer{
+.skills__container{
   row-gap: 0;
 }
 
@@ -433,9 +433,10 @@ justify-content: center;
   margin-bottom: var(--mb-0-5)
 }
 
-/* .skills__list{
-  margin-bottom: 2rem;
-} */
+.skills__list{
+  row-gap: 1.5rem;
+  padding-left: 2.7rem;
+}
 
 
 .skills__name{
@@ -519,13 +520,17 @@ justify-content: center;
 }
 
 /* Skills Close */
-.skills__close .skills__list{
+.skills__close .skills__list {
   height: 0;
   overflow: hidden;
+  transition: height 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
 }
 
-.skills__open .skills__list{
+.skills__open .skills__list {
   height: max-content;
+  opacity: 1;
+  transition: height 0.4s ease, opacity 0.4s ease;
   margin-bottom: var(--mb-2-5);
 }
 
