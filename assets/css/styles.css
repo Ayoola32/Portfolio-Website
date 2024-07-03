@@ -302,9 +302,10 @@ img {
   margin-bottom: var(--mb-2);
 }
 
-.home__scroll{
-  /* display: none; */
-}
+/* .home__scroll{
+  /* display: none; 
+} */
+
 .home__scroll-button{
   color: var(--first-color);
   transition: .36s;
@@ -749,6 +750,39 @@ overflow: initial;
 .portfolio__button:hover .button__icon{
   transform: translateX(.25rem);
 }
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  content: '';
+}
+
+.swiper-portfolio-icon{
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.swiper-button-prev{
+  left: -.1rem;
+}
+
+.swiper-button-next{
+  right: -.1rem;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets{
+  bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active{
+  background-color: var(--first-color);
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet{
+  outline: none;
+}
+
 
 /*==================== PROJECT IN MIND ====================*/
 
