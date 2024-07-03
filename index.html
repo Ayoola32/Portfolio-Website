@@ -9,7 +9,7 @@
         
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -616,10 +616,10 @@
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most recent work</span>
                 
-                <div class="portfolio__container container">
-                    <div>
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
                             
                             <div class="portfolio__data">
@@ -633,7 +633,7 @@
                         </div>
 
                         <!--==================== PORTFOLIO 2====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
                             
                             <div class="portfolio__data">
@@ -647,7 +647,7 @@
                         </div>
 
                         <!--==================== PORTFOLIO 3====================-->
-                        <div class="portfolio__content grid">
+                        <div class="portfolio__content grid swiper-slide">
                             <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
                             <div class="portfolio__data">
@@ -661,6 +661,16 @@
                         </div>
 
                     </div>
+
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </section>
 
@@ -689,7 +699,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
