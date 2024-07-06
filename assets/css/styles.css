@@ -138,7 +138,7 @@ img {
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  padding: 2rem 0 4rem;
+  padding: 2rem 0 8.5rem;
 }
 
 .section__title {
@@ -281,7 +281,7 @@ img {
   gap: 1rem;
 }
 
-.home_content{
+.home__content{
   grid-template-columns: .5fr 3fr;
   padding-top: 3.5rem;
   align-items: center;
@@ -309,7 +309,7 @@ img {
 }
 
 .home__blob-img{
-  width: 200px;
+  width: 170px;
 }
 
 .home__data{
@@ -337,7 +337,7 @@ img {
 
 .home__scroll-button{
   color: var(--first-color);
-  transition: .36s;
+  transition: .3s;
 }
 
 .home__Scroll-button:hover{
@@ -352,6 +352,7 @@ img {
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
+  margin-right: var(--mb-0-25);
 }
 
 .home__scroll-arrow{
@@ -1006,9 +1007,93 @@ overflow: initial;
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
+@media screen and (max-width: 350px) {
+  .container{
+    margin-left: var(--mb-1) ;
+    margin-right: var(--mb-1);
+  }
 
+  .nav__menu{
+    padding: 2rem .25rem 4rem;
+  }
+
+  .nav__list{
+    column-gap: 0;
+  }
+
+  .home__content{
+    grid-template-columns: .2fr 3fr;
+  }
+
+  .home__blob{
+    width: 180px;
+  }
+
+  .skills__title{
+    font-size: var(--normal-font-size);
+  }
+
+  .qualification__data{
+    gap: .5rem;
+  }
+
+  .services__container{
+    grid-template-columns: max-content;
+    justify-content: center;
+  }
+
+  .services__content{
+    padding-right: 3.5rem;
+  }
+
+  .services__modal{
+    padding: 0 .5rem;
+  }
+
+  .project__img{
+    width: 200px;
+  }
+
+  .testimonial__data, 
+  .testimonial__header{
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .testimonial__img{
+    margin-right: 0;
+    margin-bottom: var(--mb-0-25);
+  }
+
+  .testimonial__data,
+  .testimonial__description{
+    text-align: center;
+  }
+}
 
 /* For medium devices */
+@media screen and (min-width: 568px) {
 
+}
 
 /* For large devices */
+@media screen and (min-width: 1024px) {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
