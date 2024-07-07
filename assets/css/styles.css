@@ -22,6 +22,7 @@
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
+    --ash-background: #F5F5F5;
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -399,6 +400,10 @@ img {
 }
 
 /*==================== ABOUT ====================*/
+.about{
+  background-color: var(--input-color);
+}
+
 .about__img{
   width: 200px;
   border-radius: .5rem;
@@ -439,6 +444,7 @@ img {
 display: flex;
 justify-content: center;
 }
+
 /*==================== SKILLS ====================*/
 .skills__container{
   row-gap: 0;
@@ -588,6 +594,10 @@ justify-content: center;
 
 
 /*==================== QUALIFICATION ====================*/
+.qualification{
+  background-color: var(--input-color);
+}
+
 .qualification__tabs{
   display: flex;
   justify-content: space-evenly;
@@ -754,6 +764,12 @@ justify-content: center;
   visibility: visible;
 }
 
+
+/*==================== PORTFOLIO ====================*/
+.portfolio{
+  background-color: var(--input-color);
+}
+
 .portfolio__container{
 overflow: initial;
 }
@@ -818,6 +834,10 @@ overflow: initial;
 
 
 /*==================== TESTIMONIAL ====================*/
+.testimonial{
+  background-color: var(--input-color);
+}
+
 .testimonial__data,
 .testimonial__header{
   display: flex;
@@ -829,8 +849,8 @@ overflow: initial;
 }
 
 .testimonial__img{
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   margin-right: var(--mb-0-75);
 }
@@ -852,6 +872,10 @@ overflow: initial;
 .testimonial__icon-star{
   color: var(--first-color);
 }
+
+/* .testimonial__icon-star:nth-child(-n+4){
+  color: gold;
+} */
 
 .swiper-container .swiper-pagination-testimonial{
   bottom: 0;
@@ -895,6 +919,8 @@ overflow: initial;
 }
 
 .contact__input{
+  resize: none;
+  box-sizing: border-box;
   width: 100%;
   background-color: var(--input-color);
   color: var(--text-color);
@@ -1207,9 +1233,9 @@ overflow: initial;
   }
 
 
-  .qualification__tabs{
-    /* justify-content: center; */
-  }
+  /* .qualification__tabs{
+    justify-content: center;
+  } */
 
   .qualification__button{
     margin: 0 var(--mb-1);
