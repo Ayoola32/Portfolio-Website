@@ -108,7 +108,9 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
       el: ".swiper-pagination",
       clickable: true,
     },
-  });
+    mousewheel: false, 
+    keyboard: false, 
+});
 
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper(".testimonial__container", {
