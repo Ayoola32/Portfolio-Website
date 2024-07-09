@@ -1,4 +1,55 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+// require "includes/db.php";
+// require "includes/header.php";
+// require "includes/navigation.php";
+require "vendor/autoload.php";
+// require "classes/config.php";
+
+$message = '';
+if (isset($_POST['submit'])) {
+    $name = trim($_POST['name']);
+    $email = trim($_POST['email']);
+    $subject = trim($_POST['subject']);
+    $message = trim($_POST['message']);
+
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $message = "<h4 class='alert alert-danger text-center'>Invalid email format</h4>";
+    } else {
+        $mail = new PHPMailer(true);
+        try {
+            //Server settings
+            $mail->SMTPDebug = SMTP::DEBUG_OFF;
+            $mail->isSMTP();
+            $mail->Host = 'smtp.gmail.com';
+            $mail->SMTPAuth = true;
+            $mail->Username = 'aabubakarsidiqq@gmail.com';
+            $mail->Password = 'ynsq yqtr qyix tbtd';
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+            $mail->Port = 465;
+
+            //Recipients
+            $mail->setFrom($email, $name);
+            $mail->addAddress('aabubakarsidiqq@gmail.com'); //enter you email address
+
+            //Content
+            $mail->isHTML(true);
+            $mail->Subject = "$email ($subject)" . " From: Portfolio-Contact";
+            $mail->Body = $message;
+            $mail->AltBody = strip_tags($message);
+
+            $mail->send();
+            $message = "<h4 class='alert alert-success text-center'>Message Sent Successfully</h4>";
+        } catch (Exception $e) {
+            $message = "<h4 class='alert alert-danger text-center'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</h4>";
+        }
+    }
+}
+
+
 
 ?>
 
