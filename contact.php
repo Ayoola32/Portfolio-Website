@@ -33,6 +33,7 @@ if (isset($_POST['submit'])) {
 
             //Recipients
             $mail->setFrom($email, $name);
+            $mail->addReplyTo($email, $name);
             $mail->addAddress('aabubakarsidiqq@gmail.com'); //enter you email address
 
             //Content
@@ -43,6 +44,8 @@ if (isset($_POST['submit'])) {
 
             $mail->send();
             $message = "<h4 class='alert alert-success text-center'>Message Sent Successfully</h4>";
+            header("Location: " . $_SERVER['PHP_SELF'] . "#contact");
+            exit;
         } catch (Exception $e) {
             $message = "<h4 class='alert alert-danger text-center'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</h4>";
         }
@@ -82,7 +85,7 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
 
-        <form action="" method="post" class="contact__form grid">
+        <form action="#contact" method="post" class="contact__form grid">
             <?php echo $message?>
             <div class="contact__inputs grid">
                 <div class="contact__content">
@@ -111,10 +114,12 @@ if (isset($_POST['submit'])) {
                     </a>
                 </div> -->
                 <div>
-                    <a href="#contact" type="submit" name="submit" class="button button--flex">
-                        Send Message
-                        <i class="uil uil-message button__icon"></i>
-                    </a>
+                    <!-- Correct submit button -->
+                <button type="submit" name="submit" class="button button--flex">
+                    Send Message
+                    <i class="uil uil-message button__icon"></i>
+                </button>
+
                 </div>
 
         </form>
