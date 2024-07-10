@@ -44,8 +44,8 @@ if (isset($_POST['submit'])) {
 
             $mail->send();
             $message = "<h4 class='alert alert-success text-center'>Message Sent Successfully</h4>";
-            header("Location: " . $_SERVER['PHP_SELF'] . "#contact");
-            exit;
+            // header("Location: " . $_SERVER['PHP_SELF'] . "#contact");
+            // exit;
         } catch (Exception $e) {
             $message = "<h4 class='alert alert-danger text-center'>Message could not be sent. Mailer Error: {$mail->ErrorInfo}</h4>";
         }
