@@ -196,7 +196,7 @@
                                 <div class="skills__data">
                                     <div class="skills__titles">
                                         <h3 class="skills__name">PHP OOP</h3>
-                                        <span class="skills__number">40%</span>
+                                        <span class="skills__number">60%</span>
                                     </div>
                                     <div class="skills__bar">
                                         <span class="skills__percentage skills__php-oop"></span>
